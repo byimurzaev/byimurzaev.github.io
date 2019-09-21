@@ -141,7 +141,7 @@ html{
 
 .optimization{
     padding: 102px 0 107px 0;
-    background: url('../img/Layer_15.png') 0 48px no-repeat;
+    background: url('../img/Layer_15.png') -100px 48px no-repeat;
 }
 .optimization .container .opt_header{
     color: #299cbd;
