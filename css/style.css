@@ -245,7 +245,7 @@ footer ul li + li{
     margin-top: 20px;
 }
 
-.subscription form{
+.subscription .email{
     border: 1px solid black;
     vertical-align: middle;
 }
