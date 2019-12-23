@@ -253,17 +253,14 @@ footer ul li + li{
     width: 200px;
     height: 44px;
     border-right: none;
-    margin: 0;
-    padding: 0;
-    border:0;
+    display: inline;
+    
 }
 
 .subscription input[type="submit"]{
     width: 40px;
     border-radius: 0 4px 4px 0;
     margin: 0;
-    padding: 0;
-    border:0;
     border-left: none;
 }
 
