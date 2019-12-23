@@ -245,22 +245,24 @@ footer ul li + li{
     margin-top: 20px;
 }
 
+.subscription form{
+    border: 1px solid black;
+    vertical-align: middle;
+}
+
 .subscription input{
-    background: #FFFFFF;
-    border: 1px solid rgba(31, 32, 65, 0.25);
-    box-sizing: border-box;
-    border-radius: 4px 0 0 4px;
+    border: none;
+    outline: none;
     width: 200px;
     height: 44px;
-    border-right: none;
+    
     
 }
 
 .subscription input[type="submit"]{
     width: 40px;
-    border-radius: 0 4px 4px 0;
-    margin: 0;
-    border-left: none;
+    border: none;
+    outline: none;
 }
 
 .subscription{
