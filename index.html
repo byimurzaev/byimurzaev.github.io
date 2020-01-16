@@ -25,7 +25,7 @@
                 <li>Соглащения<img src="/img/expand_more.svg" alt=""></li>
             </ul>
 
-            <button id="test" class="singin">Войти</button>
+            <button class="singin">Войти</button>
             <button class="singup">Зарегистрироваться</button>
         </nav>
         </header>
@@ -37,26 +37,37 @@
         <label for="date">Прибытие/Выезд</label>          
         <input type="date">
         <label for="text">Гости</label>
-        <input type="text">
-        <div class="guests">
-            <div class="adults">
-                <h3>ВЗРОСЛЫЕ</h3>
-                <div class="quantity">
-                    <button>-</button>
-                    <p>1</p>
-                    <button id="dob">+</button>
-                </div>
-            </div>
-            <div>
-
-            </div>
-            <div>
-
-            </div>
-        </div>
+        <input id="questsInput" type="text" value="0">
+        
         <input type="submit">
     </form>
     <p>Лучшие номера для вашей работы, отдыха и просто вдохновения</p>
+    <div class="guests">
+        <div class="adults">
+            <h3>ВЗРОСЛЫЕ</h3>
+            <div class="quantity">
+                <button id="adultsMinus">-</button>
+                <p id="adultsValue">0</p>
+                <button id="adultsPlus">+</button>
+            </div>
+        </div>
+        <div class="children">
+            <h3>ДЕТИ</h3>
+            <div class="quantity">
+                <button id="childrenMinus">-</button>
+                <p id="childrenValue">0</p>
+                <button id="childrenPlus">+</button>
+        </div>
+        <div calss="babies">
+            <h3>Младенцы</h3>
+            <div class="quantity">
+                <button id="babiesMinus">-</button>
+                <p id="babiesValue">0</p>
+                <button id="babiesPlus">+</button>
+        </div>
+        <button id="guestsCancel">Отмена</button>
+        <button id="guestsApply">Применить</button>
+    </div>
 </div>
 </section>
 <footer>
