@@ -362,41 +362,99 @@ footer ul li + li{
     }
   }
 
+  .form{
+      position: relative;
+  }
   .guests{
         position: absolute;
-        left: 30px;
+        left: 31px;
+        top: 264px;
         background: #FFFFFF;
         border: 1px solid rgba(31, 32, 65, 0.5);
         box-sizing: border-box;
         box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
         width: 320px;
-        height: 159px;
+        height: 167px;
         visibility: hidden;
   }
 
-  .adults, .children, .babies{
+  .guests div{
       display: flex;
       justify-content: space-between;
   }
 
-  .quantity{
-      display: flex;
+  .guests div .quantity p{
+      margin: 0;
       align-self: center;
-      justify-content: space-around;
-  }
-  .quantity p {
-      margin: 13px !important; 
   }
 
-  .quantity button{
-      margin-top: 7px;
-    width: 30px;
-    height: 30px;
+  .guests div .quantity button{
+      padding: 0;
+      width: 30px;
+      height: 30px;
+      border: 1px solid rgba(31, 32, 65, 0.25);
+      box-sizing: border-box;
+      border-radius: 22px;
+      background-color: white;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 22px;
+      color: rgba(31, 32, 65, 0.5);
+      align-items: center;
+      text-align: center;
+  }
+  .guests div h3{
+      margin: 13px 0 11px 15px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 15px;
+      text-transform: uppercase;
+  }
+
+  .guests div .quantity button:nth-child(1){
+      margin: 7px 12px 0 0;
+  }
+
+  .guests div .quantity button:nth-child(3){
+    margin: 7px 7px 0 12px;
+  }
+
+  .guests.guestButtons{
+      display: flex;
+      justify-content: space-between;
+  }
+
+
+  #guestsCancel{
     font-family: Montserrat;
     font-style: normal;
-    font-weight: normal;; 
+    font-weight: bold;
+    font-size: 12px;
+    background: none;
+    border: none;
+    text-transform: uppercase;
     color: rgba(31, 32, 65, 0.5);
-    border-radius: 50%;
-    background-color: white;
-    border: 1px solid rgba(31, 32, 65, 0.5);;
+    width: 72px;
+    height: 15px;
+    margin: 20px 0 13px 14px;
+    padding: 0;
+  }
+
+  #guestsApply{
+    width: 84px;
+    height: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #BC9CFF;
+    background: none;
+    border: none;
+    padding: 0 ;
+    margin: 19px 7px 13px 0;
   }
